@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body { 
+  font-family: 'Roboto', sans-serif;
+  background-color: #FEF0F1;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;  
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+
+nav {
+  background-color: #006d5d;
+  padding: 15px;
+  color: white;
+  text-align: right;
+  font-size: 20px;
+}
+
+#cart {
+  width: 1024px;
+  margin: auto;
+  position: relative;
+}
+
+#cart i {
+  margin-right: 10px;
+}
+
+#cart .popover {
+  cursor: pointer;
+}
+
+.cart-inner {
+  position: absolute;
+  right: 0;  
+  top: 37px;
+  background: #006d5d;
+  padding: 20px;
+  border: 1px solid white;
+  text-align: left;
+}
+
+.hide {
+  display: none;
+}
+
+.cart-inner li, .subtotal, .total{
+  display: grid;
+  grid-template-columns: 75px 200px 80px 30px;
+  column-gap: 5px;
+  margin: 10px 0;
+}
+
+.cart-inner #delete {
+  color: #8f0808;
+  cursor: pointer;
+}
+
+.subtotal > span, .total > span{
+  grid-column-start: 2;
+  justify-self: right;
+}
+
+.subtotal > span + span, .total > span + span{
+  grid-column-start: 3;
+}
+
+main {
+  width: 1024px;
+  margin: auto;
+}
+
+.courses li {
+  max-width: 300px;
+  border: 1px solid #dfdfdf;
+  margin: 30px 15px;
+  background: white;
+}
+
+#price {
+  margin: 10px 0;
+}
+
+.info {
+  padding: 15px;
+}
+
+#spaces-remaining {
+  margin: 10px 0;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+#add-to-cart {
+  background-color: #456990;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  margin: auto;
+  display: block;
+  margin: 20px auto;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+#add-to-cart:hover {
+  color: #0b3c5f;
+  background-color: white;
+  border: 2px solid #456990;
+}
