@@ -17,6 +17,13 @@
   },
   "homepage": "https://github.com/qingmingli001/assignment1_for_SD130#readme",
   "dependencies": {
-    "gulp": "^4.0.2"
+    "gulp-imagemin": "^7.1.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify": "^3.1.0",
+    "gulp-sourcemaps": "^3.0.0"
   }
 }
