@@ -1,0 +1,74 @@
+  500  ls -la
+  501  ls -la
+  502  git init
+  503  ls -la
+  504  echo ""
+  505  echo "# assignment1_for_SD130" >> README.md
+  506  git status
+  507  git add READ.md
+  508  git add ERADME.md
+  509  git add README.md
+  510  git commit -m "first commit"
+  511  git branch -M main
+  512  git remote add origin https://github.com/qingmingli001/assignment1_for_SD130.git
+  513  git push -u origin main
+  514  git status
+  515  git add .
+  516  git commit -m "the start files"
+  517  code .
+  518  mkdir src
+  519  mv css src
+  520  mv js src
+  521  mv images src
+  522  npm -v
+  523  node -v
+  524  npm init
+  525  npm install --global gulp-cli
+  526  npm i --dave-dev gulp
+  527  touch gulpfile.js
+  528  mkdir dist
+  529  mv index.html src
+  530  git status
+  531  git add .
+  532  git commit -m "finish the prepare work for gulp task"
+  533  git status
+  534  git push
+  535  ls
+  536  ls -la
+  537  git status
+  538  npm init
+  539  npm i --save-dev gulp
+  540  git status
+  541  git status
+  542  git status
+  543  echo "node_modules/" >> .gitignore
+  544  git status
+  545  git rm -r --cached .
+  546  git status
+  547  git add .
+  548  git status
+  549  git commit -m ".gitignore fix"
+  550  git status
+  551  git ls-tree -r master --name-only
+  552  git ls-tree -r main --name-only
+  553  git push
+  554  git log
+  555  git checkout -b color-change
+  556  code .
+  557  git checkout main
+  558  git branch
+  559  git merge color-change
+  560  git branch --merged
+  561  git status
+  562  git add .
+  563  git commit -m "change color and add feature"
+  564  git status
+  565  git branch -w
+  566  got branch -vv
+  567  git branch -vv
+  568  git branch -d color-change
+  569  git branch
+  570  ls -la
+  571  touch history.txt
+  572  ls -la
+  573  history
