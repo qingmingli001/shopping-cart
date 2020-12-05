@@ -8,7 +8,7 @@ html, body {
 
 body { 
   font-family: 'Roboto', sans-serif;
-  background-color: #FEF0F1;
+  background-color: #ad4c52;
 }
 
 ul {
@@ -35,7 +35,7 @@ img {
 nav {
   background-color: #006d5d;
   padding: 15px;
-  color: white;
+  color: rgb(194, 137, 137);
   text-align: right;
   font-size: 20px;
 }
@@ -58,7 +58,7 @@ nav {
   position: absolute;
   right: 0;  
   top: 37px;
-  background: #006d5d;
+  background: #198070;
   padding: 20px;
   border: 1px solid white;
   text-align: left;
